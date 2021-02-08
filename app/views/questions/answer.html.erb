@@ -1,0 +1,13 @@
+<h1>Stupid coaching</h1>
+  <div class="pointer">
+    <p><%= params[:question] %></p>
+    <p>You</p>
+  </div>
+
+  <div class="pointer">
+    <div class="highlight">
+      <p class="answer"><%= @answer %></p>
+      <p>Your Coach</p>
+    </div>
+  </div>
+<%= link_to "Ask a new question", ask_path %>
